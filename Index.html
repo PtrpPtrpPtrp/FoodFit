@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 35px;
+    text-align: center;
+    background:#6ac6a5;
+}
+
+.header text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f7f7f7;
+    letter-spacing: 8px;
+}
+.header text2 {
+    font-size: 30px;
+    text-align: center;
+    color: #eaeaea;
+    letter-spacing: 3px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:#80ccb0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+    
+}
+
+textlefton1 {
+    font-size: 50px ;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #e74f04;
+    letter-spacing: 3px;
+}
+textlefton2 {
+    font-size: 25px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #feb08c;
+    letter-spacing: 8px;
+}
+textlefton3 {
+    font-size: 25px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #58a66a;
+    letter-spacing: 4px;
+}
+textlefton4 {
+    font-size: 20px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #8eae6d;
+    letter-spacing: 2px;
+}
+textlefton5 {
+    font-size: 50px ;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #a9410c;
+    letter-spacing: 3px;
+}
+textlefton6 {
+    font-size: 25px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #e4b15f;
+    letter-spacing: 8px;
+}
+textlefton7 {
+    font-size: 20px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #6e381c;
+    letter-spacing: 2px;
+}
+textlefton8 {
+    font-size: 20px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: #d0bca0;
+    letter-spacing: 2px;
+}
+textlefton9 {
+    font-size: 30px ; 
+    text-indent: 80px;
+    text-align: justify;
+    color: black;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+textring1 {
+    font-size: 30px ;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #7a344c;
+    letter-spacing: 3px;
+}
+textring2 {
+    font-size: 15px ;    
+    text-align: center;
+    color: #ce9864;
+    letter-spacing: 2px;
+}
+textring21{
+    font-size: 15px ;    
+    text-align: center;
+    color: #5c351a;
+    letter-spacing: 2px;
+}
+textring3 {
+    font-size: 30px ;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #2a555f;
+    letter-spacing: 3px;
+}
+textring31 {
+    font-size: 15px ;    
+    text-align: center;
+    color: #63777c;
+    letter-spacing: 2px;
+}
+textring4 {
+    font-size: 30px ;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #b61d06;
+    letter-spacing: 3px;
+}
+textring5 {
+    font-size: 15px ;    
+    text-align: center;
+    color: #af4c00;
+    letter-spacing: 3px;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #f7c93d;
+    margin-top: 20px;
+}
+.footer textfoot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f7f7f7;
+    letter-spacing: 8px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <text1>FoodFit</text1><br><br>
+  <text2>A food website that will make you enjoy delicious all over the world.</text2>
+</div>
+
+<div class="topnav">
+  <a href="Appetizer.html">Appetizer</a>
+  <a href="main.html">Main Dish</a>
+  <a href="dessert.html">Dessert</a>
+  <a href="login.html" style="float:right">login</a>
+  <a href="regis.html" style="float:right">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+            
+        <center><textlefton1><marquee direction="up">Popular Food</center></marquee></textlefton1><br>
+      
+      <textlefton2><center>Salt Salmom with Jasmine Rice.</center></textlefton2><br>
+      <a target="salmon" href="01.jpg">
+            <a href="salmon.html">
+    <center><img src="01.jpg" alt="Cinque Terre" width="auto" height="auto"></center><br></a>
+      <textlefton3>Salt Salmom with Jasmine Rice.</textlefton3> <br>
+      <textlefton4>Salmon fresh from the sea. It is cooked with meticulousness, rich in nutrients. Served with hot Jasmine rice is delicious.</textlefton4> <br>
+    </div>
+    <div class="card">
+    <center><textlefton5><marquee direction="up">Popular Food</center></marquee></textlefton5><br>
+    <textlefton6><center>Orange Pancake.</center></textlefton6><br>
+    <a target="op" href="02.jpg">
+            <a href="op.html">
+    <center><img src="02.jpg" alt="Cinque Terre" width="600" height="600"></center><br></a>
+    <textlefton7>Orange Pancake.</textlefton7> <br>
+    <textlefton8>Soft cake pancakes Freshly made daily Topped with orange-made jam from the garden citrus. The smell of flour and orange.</textlefton8> <br>
+    <textlefton9>เว็บไซต์นี้จัดทำเพื่อส่งงานเท่านั้น.</textlefton9> <br> 
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+     <textring1>About Me</textring1>
+     <center><img src="03.jpg" alt="Cinque Terre" width="300" height="210"></center><br>
+    <textring2>FoodFit: Popular wedsite in the  social network. </textring2><br>
+    <textring2>Fit: From the word healthy.</textring2><br>
+    <textring21>Owner:<a href="https://www.facebook.com/ig.queenqueenpui.7">Miss.Jadsadaporn Pechtes</a></textring21><br>
+    <textring21> <a href="https://www.facebook.com/mint.phattaraporn.7">Miss. Phataraporn Promsurapat</a></textring21><br>
+    
+    </div>
+    <div class="card">
+        <textring3>location</textring3>
+        <center><img src="04.jpg" alt="Cinque Terre" width="300" height="210"></center><br>
+        <textring31>Foodfit: Near to the university Just turn left and straight for 3 kilometers. The shop is on the right.</textring31>
+    </div>
+    <div class="card">
+        <textring4>Follow Me</textring4><br>
+        <textring5>Facebook page: Foodfit</textring5>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <textfoot>Let's enjoy your food.</textfoot>
+</div>
+
+</body>
+</html>
